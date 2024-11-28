@@ -23,15 +23,25 @@ addButton.addEventListener("click", function (event){
     const sex = prompt("sex: ");
     const status = "offline";
     const age = prompt("age: ");
+<<<<<<< HEAD
     let profileHTML = createProfileDiv(firstName, lastName, sex,age); 
     profilesDiv.innerHTML += profileHTML;
+=======
+    let profileHTML = createProfileDiv(firstName, lastName, sex,age); // aanroepen van een functie
+    
+    // wat is het verschil?
+    profilesDiv.innerHTML += profileHTML;
+    profilesDiv.innerHTML = profileHTML;
+
+
+>>>>>>> 70966f161bda4b992340157242321964eb7874a5
 });
 
 
 function createProfileDiv(fname, lname, sex, age){
     let htmlCode = `
         <div class="profile">
-        <h3 class="name"> ${fname} ${lname}</h3>
+        <h3 class="name"> ${} ${lname}</h3>
         <p class="age"> age: ${age} </p>
     </div>
     `;

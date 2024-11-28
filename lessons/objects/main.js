@@ -49,11 +49,14 @@ for (let index = 0; index < foodRecipes.length; index++) {
 
 function recipeStuff(subject) {
     let htmlCode = `
-    <li>
-        <strong>${subject.foodTitle}</strong>: ${subject.foodDescription} 
-        <br>Health Info: ${subject.foodHealth}
-    </li>`;
+  <li>
+        <h3>${subject.foodTitle}</h3>
+        <p>${subject.foodDescription}</p>
+        <p> ${subject.foodHealth}</p>
+    </li>`
     
     return htmlCode;
 }
+
+
 

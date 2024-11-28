@@ -1,0 +1,37 @@
+body{
+    background:#f2f2f2;
+    color:black;
+}
+
+img{
+    width:200px;
+    height:200px
+}
+
+button{
+    width: 80px;
+    height:80px;
+    font-size: 32pt;
+    border-radius: 50%;
+}
+
+
+.foodArray{
+    border:3px solid gray;
+    padding:10px;
+    max-width:500px;
+}
+
+.profile.male{
+    background: lightblue;
+}
+
+.profile.female{
+    background: lightpink;
+}
+
+li, .card{
+    padding: 10px;
+    border: 30px solid blue;
+}
+
